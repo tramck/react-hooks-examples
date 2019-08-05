@@ -26,13 +26,9 @@ class FetchData extends Component {
                     <input onChange={(e => this.setState({ query: e.target.value }))} />
                     <button onClick={() => this.fetchFromApi()}>Go!</button>
                 </div>
-                {loading ? (
-                    <h3>LOADING...</h3>
-                ) : (
-                    <div>
-                        <textarea disabled value={JSON.stringify(results)} />
-                    </div>
-                )}
+                <div>
+                    <textarea disabled value={loading ? 'LOADING...' : JSON.stringify(results)} />
+                </div>
             </div>
         );
     }
