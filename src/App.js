@@ -10,10 +10,12 @@ function App() {
             <h3>Like Button (useState)</h3>
             <LikeButton />
 
+            <hr />
 
             <h3>Click Counter (useEffect)</h3>
             <ClickCounter />
 
+            <hr />
 
             <h3>Fetch Data (useApi custom hook)</h3>
             <FetchData />
