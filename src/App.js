@@ -7,17 +7,17 @@ import ClickCounter from './ClickCounter';
 function App() {
     return (
         <div className="App">
-            <h3>Like Button (useState)</h3>
+            <h3>LikeButton (useState)</h3>
             <LikeButton />
 
             <hr />
 
-            <h3>Click Counter (useEffect)</h3>
+            <h3>ClickCounter (useEffect)</h3>
             <ClickCounter />
 
             <hr />
 
-            <h3>Fetch Data (useApi custom hook)</h3>
+            <h3>FetchData (useApi custom hook)</h3>
             <FetchData />
         </div>
     );
